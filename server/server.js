@@ -6,6 +6,7 @@ const session = require('express-session');
 const bcrypt = require('bcryptjs');
 const nodemailer = require('nodemailer');
 const crypto = require('crypto');
+const { initDB, getDB, getDBType } = require('./db');
 require('dotenv').config();
 
 const app = express();
@@ -99,241 +100,9 @@ resource-allocation-app へようこそ。
   });
 }
 
-// SQLite Database 初期化
-const dbPath = path.join(__dirname, 'orders.db');
-const db = new Database(dbPath);
-
-// テーブル作成
-db.exec(`
-  CREATE TABLE IF NOT EXISTS users (
-    id TEXT PRIMARY KEY,
-    username TEXT NOT NULL UNIQUE,
-    password TEXT NOT NULL,
-    displayName TEXT NOT NULL,
-    created_at TEXT
-  );
-
-  CREATE TABLE IF NOT EXISTS orders (
-    id TEXT PRIMARY KEY,
-    name TEXT NOT NULL,
-    customer TEXT,
-    amount INTEGER,
-    orderDate TEXT,
-    deliveryMonth TEXT,
-    department TEXT,
-    rank TEXT,
-    remarks TEXT,
-    status TEXT DEFAULT '進行中',
-    lossDate TEXT,
-    lossReason TEXT,
-    created_by TEXT,
-    created_at TEXT,
-    updated_by TEXT,
-    updated_at TEXT
-  );
-
-  CREATE TABLE IF NOT EXISTS targets (
-    id TEXT PRIMARY KEY,
-    month TEXT,
-    department TEXT,
-    target INTEGER
-  );
-
-  CREATE TABLE IF NOT EXISTS logs (
-    id TEXT PRIMARY KEY,
-    timestamp TEXT,
-    message TEXT,
-    type TEXT
-  );
-
-  CREATE TABLE IF NOT EXISTS daily_snapshots (
-    id TEXT PRIMARY KEY,
-    date TEXT NOT NULL,
-    department TEXT NOT NULL DEFAULT 'All',
-    totalAmount INTEGER DEFAULT 0,
-    created_at TEXT
-  );
-
-  CREATE TABLE IF NOT EXISTS account_planning_categories (
-    id TEXT PRIMARY KEY,
-    name TEXT NOT NULL UNIQUE,
-    created_at TEXT
-  );
-
-  CREATE TABLE IF NOT EXISTS account_planning_accounts (
-    id TEXT PRIMARY KEY,
-    customerName TEXT NOT NULL,
-    categoryId TEXT NOT NULL,
-    assignee TEXT,
-    approachDate TEXT,
-    actionPlan TEXT,
-    expectedAmount INTEGER DEFAULT 0,
-    status TEXT DEFAULT '進行中',
-    created_at TEXT,
-    updated_at TEXT,
-    FOREIGN KEY (categoryId) REFERENCES account_planning_categories(id)
-  );
-
-  CREATE TABLE IF NOT EXISTS account_planning_settings (
-    key TEXT PRIMARY KEY,
-    value TEXT,
-    updated_at TEXT
-  );
-
-  CREATE TABLE IF NOT EXISTS account_planning_category_targets (
-    categoryId TEXT PRIMARY KEY,
-    targetAmount INTEGER DEFAULT 0,
-    updated_at TEXT,
-    FOREIGN KEY (categoryId) REFERENCES account_planning_categories(id)
-  );
-
-  CREATE TABLE IF NOT EXISTS order_audit_log (
-    id TEXT PRIMARY KEY,
-    orderId TEXT NOT NULL,
-    changedField TEXT NOT NULL,
-    oldValue TEXT,
-    newValue TEXT,
-    updatedBy TEXT NOT NULL,
-    updatedAt TEXT,
-    FOREIGN KEY (orderId) REFERENCES orders(id)
-  );
-`);
-
-// 既存テーブルにカラムを追加（存在しない場合のみ）
-try {
-  const columns = db.prepare("PRAGMA table_info(orders)").all();
-  const columnNames = columns.map(c => c.name);
-
-  if (!columnNames.includes('status')) {
-    db.exec("ALTER TABLE orders ADD COLUMN status TEXT DEFAULT '進行中'");
-  }
-  if (!columnNames.includes('lossDate')) {
-    db.exec("ALTER TABLE orders ADD COLUMN lossDate TEXT");
-  }
-  if (!columnNames.includes('lossReason')) {
-    db.exec("ALTER TABLE orders ADD COLUMN lossReason TEXT");
-  }
-  if (!columnNames.includes('created_by')) {
-    db.exec("ALTER TABLE orders ADD COLUMN created_by TEXT");
-  }
-  if (!columnNames.includes('created_at')) {
-    db.exec("ALTER TABLE orders ADD COLUMN created_at TEXT");
-  }
-  if (!columnNames.includes('updated_by')) {
-    db.exec("ALTER TABLE orders ADD COLUMN updated_by TEXT");
-  }
-  if (!columnNames.includes('updated_at')) {
-    db.exec("ALTER TABLE orders ADD COLUMN updated_at TEXT");
-  }
-} catch (error) {
-  console.log('スキーマ更新済みまたはスキップ');
-}
-
-// users テーブルにカラムを追加（存在しない場合のみ）
-try {
-  const userColumns = db.prepare("PRAGMA table_info(users)").all();
-  const userColumnNames = userColumns.map(c => c.name);
-
-  if (!userColumnNames.includes('email')) {
-    db.exec("ALTER TABLE users ADD COLUMN email TEXT");
-  }
-  if (!userColumnNames.includes('passwordExpiresAt')) {
-    db.exec("ALTER TABLE users ADD COLUMN passwordExpiresAt TEXT");
-  }
-  if (!userColumnNames.includes('mustChangePassword')) {
-    db.exec("ALTER TABLE users ADD COLUMN mustChangePassword INTEGER DEFAULT 1");
-  }
-  if (!userColumnNames.includes('isActive')) {
-    db.exec("ALTER TABLE users ADD COLUMN isActive INTEGER DEFAULT 1");
-  }
-} catch (error) {
-  console.log('users テーブル スキーマ更新済みまたはスキップ');
-}
-
-// デフォルトユーザーを作成（武　勇樹）
-try {
-  const existingUser = db.prepare("SELECT * FROM users WHERE username = ?").get('takeshi_bu');
-  if (!existingUser) {
-    const hashedPassword = bcrypt.hashSync('password123', 10);
-    db.prepare("INSERT INTO users (id, username, password, displayName, created_at) VALUES (?, ?, ?, ?, ?)").run(
-      Date.now().toString(),
-      'takeshi_bu',
-      hashedPassword,
-      '武　勇樹',
-      new Date().toISOString()
-    );
-    console.log('デフォルトユーザー（武　勇樹）を作成しました');
-  }
-} catch (error) {
-  console.log('ユーザー初期化スキップ:', error.message);
-}
-
-// 既存データに created_by と updated_by を埋める（初回実行時のみ）
-try {
-  const ordersWithoutCreatedBy = db.prepare("SELECT COUNT(*) as count FROM orders WHERE created_by IS NULL").get();
-  if (ordersWithoutCreatedBy.count > 0) {
-    db.prepare("UPDATE orders SET created_by = '武　勇樹', updated_by = '武　勇樹' WHERE created_by IS NULL").run();
-    console.log(`既存データ ${ordersWithoutCreatedBy.count} 件の created_by, updated_by を '武　勇樹' で更新しました`);
-  }
-} catch (error) {
-  console.log('データ更新スキップ:', error.message);
-}
-
-// 初期カテゴリーを作成・更新
-try {
-  const existingCategories = db.prepare('SELECT COUNT(*) as count FROM account_planning_categories').get();
-  if (existingCategories.count === 0) {
-    // 新規作成時
-    const categories = [
-      '大手コンサル・メガSIer',
-      'ロイヤルカスタマー',
-      'MG/MRAG',
-      'エンドユーザー',
-      'ServiceNow',
-      'その他'
-    ];
-    const stmt = db.prepare('INSERT INTO account_planning_categories (id, name, created_at) VALUES (?, ?, ?)');
-    categories.forEach((name, index) => {
-      stmt.run(`cat-${index + 1}`, name, new Date().toISOString());
-    });
-    console.log('初期カテゴリーを作成しました');
-  } else {
-    // 既存カテゴリーの更新
-    // 「自社プロダクト」を「MG/MRAG」に変更
-    const updateStmt = db.prepare("UPDATE account_planning_categories SET name = 'MG/MRAG' WHERE name = '自社プロダクト'");
-    updateStmt.run();
-
-    // 「既存ロイヤルカスタマー」を「ロイヤルカスタマー」に変更
-    const updateRoyalStmt = db.prepare("UPDATE account_planning_categories SET name = 'ロイヤルカスタマー' WHERE name = '既存ロイヤルカスタマー'");
-    updateRoyalStmt.run();
-
-    // 「エンドユーザー」が存在しなければ追加
-    const endUserExists = db.prepare("SELECT COUNT(*) as count FROM account_planning_categories WHERE name = 'エンドユーザー'").get();
-    if (endUserExists.count === 0) {
-      const insertStmt = db.prepare('INSERT INTO account_planning_categories (id, name, created_at) VALUES (?, ?, ?)');
-      insertStmt.run(Date.now().toString(), 'エンドユーザー', new Date().toISOString());
-      console.log('エンドユーザーカテゴリーを追加しました');
-    }
-
-    // 「ServiceNow」が存在しなければ追加
-    const serviceNowExists = db.prepare("SELECT COUNT(*) as count FROM account_planning_categories WHERE name = 'ServiceNow'").get();
-    if (serviceNowExists.count === 0) {
-      const insertStmt = db.prepare('INSERT INTO account_planning_categories (id, name, created_at) VALUES (?, ?, ?)');
-      insertStmt.run(Date.now().toString(), 'ServiceNow', new Date().toISOString());
-      console.log('ServiceNowカテゴリーを追加しました');
-    }
-
-    // 「その他」が存在しなければ追加
-    const otherExists = db.prepare("SELECT COUNT(*) as count FROM account_planning_categories WHERE name = 'その他'").get();
-    if (otherExists.count === 0) {
-      const insertStmt = db.prepare('INSERT INTO account_planning_categories (id, name, created_at) VALUES (?, ?, ?)');
-      insertStmt.run(Date.now().toString(), 'その他', new Date().toISOString());
-      console.log('その他カテゴリーを追加しました');
-    }
-  }
-} catch (error) {
-  console.log('カテゴリー初期化スキップ:', error.message);
-}
+// Database 初期化（db.js で管理）
+let db;
+const dbPath = process.env.DATABASE_TYPE === 'mysql' ? null : path.join(__dirname, 'orders.db');
 
 // ===== 受注残管理 API =====
 
@@ -1225,7 +994,20 @@ app.post('/api/auth/change-password', (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT}`);
-  console.log(`Database: ${dbPath}`);
-});
+// Database 初期化と サーバー起動
+(async () => {
+  try {
+    db = await initDB();
+
+    app.listen(PORT, () => {
+      console.log(`🚀 Server running on http://localhost:${PORT}`);
+      console.log(`📊 Database Type: ${getDBType().toUpperCase()}`);
+      if (getDBType() === 'sqlite') {
+        console.log(`📁 Database: ${dbPath}`);
+      }
+    });
+  } catch (error) {
+    console.error('❌ Failed to start server:', error);
+    process.exit(1);
+  }
+})();
