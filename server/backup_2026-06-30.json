@@ -1,0 +1,2696 @@
+{
+  "orders": [
+    {
+      "id": "1780370136100.0",
+      "name": "センティリオン",
+      "customer": "センティリオン",
+      "amount": 340000,
+      "orderDate": "2026-04-01",
+      "deliveryMonth": "2026-04",
+      "department": "オープン１課",
+      "rank": "A",
+      "remarks": "",
+      "status": "失注",
+      "lossDate": "2026-06-02",
+      "lossReason": ""
+    },
+    {
+      "id": "1780370135380.0",
+      "name": "センティリオン",
+      "customer": "センティリオン",
+      "amount": 340000,
+      "orderDate": "2026-04-01",
+      "deliveryMonth": "2026-04",
+      "department": "オープン１課",
+      "rank": "A",
+      "remarks": "",
+      "status": "失注",
+      "lossDate": "2026-06-02",
+      "lossReason": ""
+    },
+    {
+      "id": "1780369137404.0",
+      "name": "センティリオン",
+      "customer": "センティリオン",
+      "amount": 330000,
+      "orderDate": "2026-05-01",
+      "deliveryMonth": "2026-05",
+      "department": "オープン１課",
+      "rank": "A",
+      "remarks": "",
+      "status": "失注",
+      "lossDate": "2026-06-02",
+      "lossReason": ""
+    },
+    {
+      "id": "1780367572354.2903",
+      "name": "武蔵野　DX、Zoho",
+      "customer": "武蔵野",
+      "amount": 2025000,
+      "orderDate": "2025-10-01",
+      "deliveryMonth": "2025-11",
+      "department": "DX課",
+      "rank": "A",
+      "remarks": "",
+      "status": "受注済み",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780367572365.7393",
+      "name": "武蔵野　DX、Zoho",
+      "customer": "武蔵野",
+      "amount": 2025000,
+      "orderDate": "2025-10-01",
+      "deliveryMonth": "2025-12",
+      "department": "DX課",
+      "rank": "A",
+      "remarks": "",
+      "status": "受注済み",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780367572372.2571",
+      "name": "武蔵野　DX、Zoho",
+      "customer": "武蔵野",
+      "amount": 1875000,
+      "orderDate": "2025-10-01",
+      "deliveryMonth": "2026-01",
+      "department": "DX課",
+      "rank": "A",
+      "remarks": "",
+      "status": "受注済み",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780367572336.5693",
+      "name": "武蔵野　DX、Zoho",
+      "customer": "武蔵野",
+      "amount": 2025000,
+      "orderDate": "2025-10-01",
+      "deliveryMonth": "2025-10",
+      "department": "DX課",
+      "rank": "A",
+      "remarks": "",
+      "status": "受注済み",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780367572385.0723",
+      "name": "武蔵野　DX、Zoho",
+      "customer": "武蔵野",
+      "amount": 1931000,
+      "orderDate": "2025-10-01",
+      "deliveryMonth": "2026-03",
+      "department": "DX課",
+      "rank": "A",
+      "remarks": "",
+      "status": "受注済み",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780378170614.8108",
+      "name": "CTC",
+      "customer": "CTC",
+      "amount": 1760000,
+      "orderDate": "2025-10-01",
+      "deliveryMonth": "2025-10",
+      "department": "DX課",
+      "rank": "A",
+      "remarks": "",
+      "status": "受注済み",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780378170635.481",
+      "name": "CTC",
+      "customer": "CTC",
+      "amount": 1760000,
+      "orderDate": "2025-10-01",
+      "deliveryMonth": "2025-11",
+      "department": "DX課",
+      "rank": "A",
+      "remarks": "",
+      "status": "受注済み",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780378170644.1702",
+      "name": "CTC",
+      "customer": "CTC",
+      "amount": 1760000,
+      "orderDate": "2025-10-01",
+      "deliveryMonth": "2025-12",
+      "department": "DX課",
+      "rank": "A",
+      "remarks": "",
+      "status": "受注済み",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780378170651.2703",
+      "name": "CTC",
+      "customer": "CTC",
+      "amount": 1760000,
+      "orderDate": "2025-10-01",
+      "deliveryMonth": "2026-01",
+      "department": "DX課",
+      "rank": "A",
+      "remarks": "",
+      "status": "受注済み",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780378170656.0068",
+      "name": "CTC",
+      "customer": "CTC",
+      "amount": 1760000,
+      "orderDate": "2025-10-01",
+      "deliveryMonth": "2026-02",
+      "department": "DX課",
+      "rank": "A",
+      "remarks": "",
+      "status": "受注済み",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780378170662.7283",
+      "name": "CTC",
+      "customer": "CTC",
+      "amount": 1760000,
+      "orderDate": "2025-10-01",
+      "deliveryMonth": "2026-03",
+      "department": "DX課",
+      "rank": "A",
+      "remarks": "",
+      "status": "受注済み",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780378170668.1106",
+      "name": "CTC",
+      "customer": "CTC",
+      "amount": 1760000,
+      "orderDate": "2025-10-01",
+      "deliveryMonth": "2026-04",
+      "department": "DX課",
+      "rank": "A",
+      "remarks": "",
+      "status": "受注済み",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780367572378.9724",
+      "name": "武蔵野　DX、Zoho",
+      "customer": "武蔵野",
+      "amount": 1875000,
+      "orderDate": "2025-10-01",
+      "deliveryMonth": "2026-02",
+      "department": "DX課",
+      "rank": "A",
+      "remarks": "",
+      "status": "受注済み",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780367344759.5017",
+      "name": "武蔵野　DX、Zoho",
+      "customer": "武蔵野",
+      "amount": 2063000,
+      "orderDate": "2025-10-01",
+      "deliveryMonth": "2026-06",
+      "department": "DX課",
+      "rank": "A",
+      "remarks": "",
+      "status": "受注済み",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780378320942.2607",
+      "name": "CTC",
+      "customer": "CTC",
+      "amount": 1850000,
+      "orderDate": "2026-06-01",
+      "deliveryMonth": "2026-06",
+      "department": "DX課",
+      "rank": "A",
+      "remarks": "",
+      "status": "受注済み",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780367344779.9744",
+      "name": "武蔵野　DX、Zoho",
+      "customer": "武蔵野",
+      "amount": 2063000,
+      "orderDate": "2025-10-01",
+      "deliveryMonth": "2026-07",
+      "department": "DX課",
+      "rank": "A",
+      "remarks": "",
+      "status": "受注済み",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780367344789.676",
+      "name": "武蔵野　DX、Zoho",
+      "customer": "武蔵野",
+      "amount": 2063000,
+      "orderDate": "2025-10-01",
+      "deliveryMonth": "2026-08",
+      "department": "DX課",
+      "rank": "A",
+      "remarks": "",
+      "status": "受注済み",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780367344796.8059",
+      "name": "武蔵野　DX、Zoho",
+      "customer": "武蔵野",
+      "amount": 2063000,
+      "orderDate": "2025-10-01",
+      "deliveryMonth": "2026-09",
+      "department": "DX課",
+      "rank": "A",
+      "remarks": "",
+      "status": "受注済み",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780378320954.3552",
+      "name": "CTC",
+      "customer": "CTC",
+      "amount": 1850000,
+      "orderDate": "2026-06-01",
+      "deliveryMonth": "2026-07",
+      "department": "DX課",
+      "rank": "A",
+      "remarks": "",
+      "status": "受注済み",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780378320961.7415",
+      "name": "CTC",
+      "customer": "CTC",
+      "amount": 1850000,
+      "orderDate": "2026-06-01",
+      "deliveryMonth": "2026-08",
+      "department": "DX課",
+      "rank": "A",
+      "remarks": "",
+      "status": "受注済み",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780378320967.6316",
+      "name": "CTC",
+      "customer": "CTC",
+      "amount": 1850000,
+      "orderDate": "2026-06-01",
+      "deliveryMonth": "2026-09",
+      "department": "DX課",
+      "rank": "A",
+      "remarks": "",
+      "status": "受注済み",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780456906501.0",
+      "name": "ルッカー作成",
+      "customer": "カレルチャペック",
+      "amount": 500000,
+      "orderDate": "2026-07-01",
+      "deliveryMonth": "2026-07",
+      "department": "DX課",
+      "rank": "D",
+      "remarks": "",
+      "status": "進行中",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780456919072.0",
+      "name": "ルッカー作成",
+      "customer": "二天紀",
+      "amount": 500000,
+      "orderDate": "2026-07-01",
+      "deliveryMonth": "2026-07",
+      "department": "DX課",
+      "rank": "D",
+      "remarks": "",
+      "status": "進行中",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780457094297.0",
+      "name": "PBR保守対応",
+      "customer": "PBR",
+      "amount": 540000,
+      "orderDate": "2026-07-01",
+      "deliveryMonth": "2026-09",
+      "department": "オープン１課",
+      "rank": "C",
+      "remarks": "18万×3か月",
+      "status": "進行中",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780457161934.0",
+      "name": "工程管理システム　機能改修\t\t",
+      "customer": "光マーク",
+      "amount": 300000,
+      "orderDate": "2026-09-01",
+      "deliveryMonth": "2026-09",
+      "department": "オープン１課",
+      "rank": "D",
+      "remarks": "",
+      "status": "進行中",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780457547694.0",
+      "name": "スポット受注",
+      "customer": "まきの",
+      "amount": 630000,
+      "orderDate": "2026-06-03",
+      "deliveryMonth": "2026-09",
+      "department": "オープン２課",
+      "rank": "C",
+      "remarks": "①6月：追加改修に対して、見積中（18万）　→　見積提出済 今村茂雄\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n18，15，15，15ずつ改善提案でスポット受注計画",
+      "status": "進行中",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780458251086.0",
+      "name": "顧客売上システム保守",
+      "customer": "HCC",
+      "amount": 240000,
+      "orderDate": "2026-07-01",
+      "deliveryMonth": "2026-09",
+      "department": "保守課",
+      "rank": "D",
+      "remarks": "スマレジ導入に伴い、入換完了後解約（予定未定）\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+      "status": "進行中",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780460200249.0",
+      "name": "サーバ老朽化対応",
+      "customer": "武蔵野",
+      "amount": 10000,
+      "orderDate": "2026-09-01",
+      "deliveryMonth": "2026-09",
+      "department": "保守課",
+      "rank": "D",
+      "remarks": "",
+      "status": "進行中",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780460221654.0",
+      "name": "カスタマイズ事業部保守料値上げ",
+      "customer": "武蔵野",
+      "amount": 210000,
+      "orderDate": "2026-09-01",
+      "deliveryMonth": "2026-09",
+      "department": "保守課",
+      "rank": "C",
+      "remarks": "",
+      "status": "進行中",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780457650103.0",
+      "name": "JAFナビエクストラNuxtバージョンアップ\t",
+      "customer": "INI",
+      "amount": 1080000,
+      "orderDate": "2026-08-03",
+      "deliveryMonth": "2026-08",
+      "department": "オープン２課",
+      "rank": "B",
+      "remarks": "②120万（バージョンアップ）\"\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+      "status": "受注済み",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "copy-1780368851594",
+      "name": "センティリオン",
+      "customer": "センティリオン",
+      "amount": 340000,
+      "orderDate": "2026-04-01",
+      "deliveryMonth": "2026-04",
+      "department": "オープン１課",
+      "rank": "A",
+      "remarks": "",
+      "status": "失注",
+      "lossDate": "2026-06-02",
+      "lossReason": "競合他社負け"
+    },
+    {
+      "id": "1780367572397.4666",
+      "name": "武蔵野　DX、Zoho",
+      "customer": "武蔵野",
+      "amount": 2288000,
+      "orderDate": "2025-10-01",
+      "deliveryMonth": "2026-04",
+      "department": "DX課",
+      "rank": "A",
+      "remarks": "",
+      "status": "受注済み",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780378283706.0",
+      "name": "CTC",
+      "customer": "CTC",
+      "amount": 916000,
+      "orderDate": "2026-05-01",
+      "deliveryMonth": "2026-05",
+      "department": "DX課",
+      "rank": "A",
+      "remarks": "",
+      "status": "受注済み",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780370094329.0",
+      "name": "センティリオン",
+      "customer": "センティリオン",
+      "amount": 340000,
+      "orderDate": "2026-04-01",
+      "deliveryMonth": "2026-04",
+      "department": "オープン１課",
+      "rank": "A",
+      "remarks": "",
+      "status": "受注済み",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780537724879.0",
+      "name": "受注A（仮）",
+      "customer": "（仮）",
+      "amount": 7160000,
+      "orderDate": "2026-04-01",
+      "deliveryMonth": "2026-04",
+      "department": "受託事業部",
+      "rank": "A",
+      "remarks": "仮登録",
+      "status": "受注済み",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780379436717.0",
+      "name": "受注A（仮）",
+      "customer": "（仮）",
+      "amount": 7750000,
+      "orderDate": "2026-07-01",
+      "deliveryMonth": "2026-07",
+      "department": "受託事業部",
+      "rank": "A",
+      "remarks": "仮登録",
+      "status": "受注済み",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780379374678.0",
+      "name": "受注A（仮）",
+      "customer": "（仮）",
+      "amount": 7870000,
+      "orderDate": "2026-08-01",
+      "deliveryMonth": "2026-08",
+      "department": "受託事業部",
+      "rank": "A",
+      "remarks": "仮登録",
+      "status": "受注済み",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780458382167.0",
+      "name": "サーバ移行（まきの）",
+      "customer": "まきの",
+      "amount": 2330000,
+      "orderDate": "2026-06-03",
+      "deliveryMonth": "2026-06",
+      "department": "保守課",
+      "rank": "B",
+      "remarks": "まきのさまサーバ移行について二重化構造2,558,128円（税込）でまきの社長から通達があったと櫻井さんから連絡をいただきましたので見積、発注書をお送りしました。",
+      "status": "受注済み",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780379417112.0",
+      "name": "受注A（仮）",
+      "customer": "（仮）",
+      "amount": 12300000,
+      "orderDate": "2026-09-01",
+      "deliveryMonth": "2026-09",
+      "department": "受託事業部",
+      "rank": "A",
+      "remarks": "仮登録",
+      "status": "受注済み",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780379436032.0",
+      "name": "受注A（仮）",
+      "customer": "（仮）",
+      "amount": 10670000,
+      "orderDate": "2026-06-01",
+      "deliveryMonth": "2026-06",
+      "department": "受託事業部",
+      "rank": "A",
+      "remarks": "仮登録",
+      "status": "受注済み",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780537784563.0",
+      "name": "武蔵野　DX、Zoho",
+      "customer": "武蔵野",
+      "amount": 2288000,
+      "orderDate": "2025-10-01",
+      "deliveryMonth": "2026-05",
+      "department": "DX課",
+      "rank": "A",
+      "remarks": "",
+      "status": "受注済み",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780541355607.0",
+      "name": "受注A（仮）",
+      "customer": "（仮）",
+      "amount": 68190000,
+      "orderDate": "2026-04-03",
+      "deliveryMonth": "2026-03",
+      "department": "受託事業部",
+      "rank": "A",
+      "remarks": "",
+      "status": "受注済み",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780537723964.0",
+      "name": "受注A（仮）",
+      "customer": "（仮）",
+      "amount": 8840000,
+      "orderDate": "2026-05-01",
+      "deliveryMonth": "2026-05",
+      "department": "受託事業部",
+      "rank": "A",
+      "remarks": "仮登録",
+      "status": "受注済み",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780457884093.0",
+      "name": "ダイサン",
+      "customer": "ダイサン",
+      "amount": 7200000,
+      "orderDate": "2026-08-03",
+      "deliveryMonth": "2026-09",
+      "department": "オープン２課",
+      "rank": "D",
+      "remarks": "\"ダイサンの上のお客様が承認されていない状況\n→再見積時期を確認\"\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+      "status": "失注",
+      "lossDate": "2026-06-10",
+      "lossReason": "見込み薄"
+    },
+    {
+      "id": "1781083641960.9504",
+      "name": "中野牧場コンサル",
+      "customer": "中野牧場",
+      "amount": 1000000,
+      "orderDate": "2026-07-01",
+      "deliveryMonth": "2026-07",
+      "department": "受託事業部",
+      "rank": "A",
+      "remarks": "",
+      "status": "進行中",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1781083641978.1167",
+      "name": "中野牧場コンサル",
+      "customer": "中野牧場",
+      "amount": 1000000,
+      "orderDate": "2026-07-01",
+      "deliveryMonth": "2026-08",
+      "department": "受託事業部",
+      "rank": "A",
+      "remarks": "",
+      "status": "進行中",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1781083641985.3359",
+      "name": "中野牧場コンサル",
+      "customer": "中野牧場",
+      "amount": 1000000,
+      "orderDate": "2026-07-01",
+      "deliveryMonth": "2026-09",
+      "department": "受託事業部",
+      "rank": "A",
+      "remarks": "",
+      "status": "進行中",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780460301825.0",
+      "name": "サーバ統合",
+      "customer": "武蔵野",
+      "amount": 1300000,
+      "orderDate": "2026-09-01",
+      "deliveryMonth": "2026-09",
+      "department": "保守課",
+      "rank": "B",
+      "remarks": "",
+      "status": "進行中",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780457017413.0",
+      "name": "KIMETE jolt BigQuery連携",
+      "customer": "武蔵野",
+      "amount": 300000,
+      "orderDate": "2026-08-03",
+      "deliveryMonth": "2026-08",
+      "department": "DX課",
+      "rank": "C",
+      "remarks": "",
+      "status": "失注",
+      "lossDate": "2026-06-11",
+      "lossReason": "ラボ型工数に吸収"
+    },
+    {
+      "id": "1782104689076.0",
+      "name": "MRAG販売",
+      "customer": "MRAG",
+      "amount": 900000,
+      "orderDate": "2026-06-03",
+      "deliveryMonth": "2026-09",
+      "department": "営業部",
+      "rank": "D",
+      "remarks": "・セミナー集客進捗悪い。8社想定が見込み60～90以下。D",
+      "status": "進行中",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780458115858.0",
+      "name": "MRAG販売",
+      "customer": "MRAG",
+      "amount": 3200000,
+      "orderDate": "2026-06-03",
+      "deliveryMonth": "2026-09",
+      "department": "営業部",
+      "rank": "E",
+      "remarks": "農業繁忙期のため現状２社集客の状況（50社予定）\n・あおき30B\n・セミナー集客進捗悪い。8社想定が見込み60～90以下。D\n・残りはE。SESへの声掛け。1社創出可能か。",
+      "status": "進行中",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780457586495.0",
+      "name": "見守りアプリ本開発",
+      "customer": "ソフトバンク",
+      "amount": 2300000,
+      "orderDate": "2026-09-01",
+      "deliveryMonth": "2026-09",
+      "department": "オープン２課",
+      "rank": "E",
+      "remarks": "今期中の実施は無し。→E\n次の企画としてLINEを絡めたものを構想中。",
+      "status": "進行中",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780458024266.0",
+      "name": "SESBPマッチング",
+      "customer": "SESBP",
+      "amount": 1000000,
+      "orderDate": "2026-06-03",
+      "deliveryMonth": "2026-09",
+      "department": "営業部",
+      "rank": "D",
+      "remarks": "160→D100に変更。残60はEへの登録は無し。",
+      "status": "進行中",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780458074069.0",
+      "name": "MG集客(営業部）",
+      "customer": "MG",
+      "amount": 150000,
+      "orderDate": "2026-06-03",
+      "deliveryMonth": "2026-09",
+      "department": "営業部",
+      "rank": "D",
+      "remarks": "Q5→D　93→15万に変更\n",
+      "status": "進行中",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780460151875.0",
+      "name": "スピード決裁データ出力代行",
+      "customer": "武蔵野",
+      "amount": 800000,
+      "orderDate": "2026-07-01",
+      "deliveryMonth": "2026-07",
+      "department": "保守課",
+      "rank": "D",
+      "remarks": "",
+      "status": "失注",
+      "lossDate": "2026-06-22",
+      "lossReason": "機能自体の追加として別途受注したため"
+    },
+    {
+      "id": "1780457735124.0",
+      "name": "MG集客",
+      "customer": "MG",
+      "amount": 700000,
+      "orderDate": "2026-06-03",
+      "deliveryMonth": "2026-09",
+      "department": "オープン２課",
+      "rank": "E",
+      "remarks": "全部E→営業にフロント引継ぎ。",
+      "status": "進行中",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780529515812.0",
+      "name": "JAFナビエクストラ案件",
+      "customer": "INI",
+      "amount": 450000,
+      "orderDate": "2026-08-01",
+      "deliveryMonth": "2026-08",
+      "department": "オープン２課",
+      "rank": "E",
+      "remarks": "45万（cognito）確度E",
+      "status": "進行中",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780456829109.0",
+      "name": "CTC単価交渉",
+      "customer": "CTC",
+      "amount": 120000,
+      "orderDate": "2026-07-10",
+      "deliveryMonth": "2026-10",
+      "department": "DX課",
+      "rank": "E",
+      "remarks": "単価アップ4万円×3か月",
+      "status": "進行中",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780457945896.0",
+      "name": "FirstDrop",
+      "customer": "FirstDrop",
+      "amount": 10000,
+      "orderDate": "2026-09-01",
+      "deliveryMonth": "2026-09",
+      "department": "オープン２課",
+      "rank": "E",
+      "remarks": "会計システム連携が不正アクセスされ、対応中。落ち着き次第、坂本様より連絡を頂く。　※今期はなし。専門のコンサルを入れたよう。自社で出来る部分を確認したがなかった。",
+      "status": "進行中",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780460182485.0",
+      "name": "スピード決裁機能追加",
+      "customer": "武蔵野",
+      "amount": 2900000,
+      "orderDate": "2026-09-01",
+      "deliveryMonth": "2026-09",
+      "department": "保守課",
+      "rank": "A",
+      "remarks": "",
+      "status": "進行中",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1781147283419.0",
+      "name": "ケアスケジュールシステム",
+      "customer": "武蔵野",
+      "amount": 600000,
+      "orderDate": "2026-06-11",
+      "deliveryMonth": "2026-09",
+      "department": "DX課",
+      "rank": "D",
+      "remarks": "保守の引き合い。アイネットからの移管希望。保守契約切れてる。\n回収依頼しても返事ない。うちに依頼が来た。\n面倒で引き受けたくない保守の１種。保守のみ引き受けない事も視野。茂雄さんに相談。",
+      "status": "進行中",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780456728271.0",
+      "name": "和光",
+      "customer": "和光",
+      "amount": 300000,
+      "orderDate": "2026-08-01",
+      "deliveryMonth": "2026-08",
+      "department": "DX課",
+      "rank": "D",
+      "remarks": "",
+      "status": "進行中",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1782256239557.0",
+      "name": "業績のぼるくん老朽化対応",
+      "customer": "王子ゴム",
+      "amount": 3600000,
+      "orderDate": "2026-06-24",
+      "deliveryMonth": "2026-09",
+      "department": "オープン１課",
+      "rank": "D",
+      "remarks": "",
+      "status": "進行中",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1782256279110.0",
+      "name": "老朽化対応",
+      "customer": "ケミトックス",
+      "amount": 2400000,
+      "orderDate": "2026-06-24",
+      "deliveryMonth": "2026-09",
+      "department": "オープン１課",
+      "rank": "D",
+      "remarks": "",
+      "status": "進行中",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1782104863691.0",
+      "name": "MRAG",
+      "customer": "あおき",
+      "amount": 310000,
+      "orderDate": "2026-06-03",
+      "deliveryMonth": "2026-07",
+      "department": "営業部",
+      "rank": "A",
+      "remarks": "",
+      "status": "進行中",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1782729503278.0",
+      "name": "MRAGサポート",
+      "customer": "あおき",
+      "amount": 200000,
+      "orderDate": "2026-06-29",
+      "deliveryMonth": "2026-07",
+      "department": "営業部",
+      "rank": "C",
+      "remarks": "",
+      "status": "進行中",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1781083540525.0",
+      "name": "中野牧場MGインスト",
+      "customer": "中野牧場",
+      "amount": 608000,
+      "orderDate": "2026-06-10",
+      "deliveryMonth": "2026-06",
+      "department": "受託事業部",
+      "rank": "A",
+      "remarks": "70→60.8",
+      "status": "進行中",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1782785285265.0",
+      "name": "SESBPマッチング",
+      "customer": "SESBP",
+      "amount": 1000000,
+      "orderDate": "2026-06-03",
+      "deliveryMonth": "2026-09",
+      "department": "営業部",
+      "rank": "D",
+      "remarks": "160→D100に変更。残60はEへの登録は無し。",
+      "status": "進行中",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1782785292051.0",
+      "name": "CSS",
+      "customer": "CSS",
+      "amount": 650000,
+      "orderDate": "2026-07-01",
+      "deliveryMonth": "2026-07",
+      "department": "オープン２課",
+      "rank": "B",
+      "remarks": "7月　優奏\n②7月入場　　　  →目標：1995万　見込：3350万　※1355万リカバリー\n③7月、8月入場　→目標：1995万　見込：2990万　※995万リカバリー\n→SN稼働でなくてもどこかしら外に出すのであれば、その最低数字をAとして見込むよう指示。CSSの以下計算式のランクBで仮入力。\nSN\n高勝、駿斗、実結→維持\n正和、圭悟、輝義→優奏７、輝義、圭悟、翼８　（正和残し※要検討）\n\n優奏　65　65　65\n明史　　100　100\n輝義　  　65　65\n圭悟　  　65　65\n＝655万円\n\n7月 65\n8月 295\n9月 295\nServiceNow1355→CSS585→名称をCSSに変更。正式に確定したメンバーの実際の数字を反映させ、確度Bにする。+70万円",
+      "status": "進行中",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1782785282048.0",
+      "name": "CSS",
+      "customer": "CSS",
+      "amount": 2950000,
+      "orderDate": "2026-07-01",
+      "deliveryMonth": "2026-08",
+      "department": "オープン２課",
+      "rank": "B",
+      "remarks": "8月　優奏　明史　輝義　圭悟\n②7月入場　　　  →目標：1995万　見込：3350万　※1355万リカバリー\n③7月、8月入場　→目標：1995万　見込：2990万　※995万リカバリー\n→SN稼働でなくてもどこかしら外に出すのであれば、その最低数字をAとして見込むよう指示。CSSの以下計算式のランクBで仮入力。\nSN\n高勝、駿斗、実結→維持\n正和、圭悟、輝義→優奏７、輝義、圭悟、翼８　（正和残し※要検討）\n\n優奏　65　65　65\n明史　　100　100\n輝義　  　65　65\n圭悟　  　65　65\n＝655万円\n\n7月 65\n8月 295\n9月 295\nServiceNow1355→CSS585→名称をCSSに変更。正式に確定したメンバーの実際の数字を反映させ、確度Bにする。+70万円",
+      "status": "進行中",
+      "lossDate": null,
+      "lossReason": ""
+    },
+    {
+      "id": "1780457319070.0",
+      "name": "CSS",
+      "customer": "CSS",
+      "amount": 2950000,
+      "orderDate": "2026-07-01",
+      "deliveryMonth": "2026-09",
+      "department": "オープン２課",
+      "rank": "B",
+      "remarks": "9月　優奏　明史　輝義　圭悟\n②7月入場　　　  →目標：1995万　見込：3350万　※1355万リカバリー\n③7月、8月入場　→目標：1995万　見込：2990万　※995万リカバリー\n→SN稼働でなくてもどこかしら外に出すのであれば、その最低数字をAとして見込むよう指示。CSSの以下計算式のランクBで仮入力。\nSN\n高勝、駿斗、実結→維持\n正和、圭悟、輝義→優奏７、輝義、圭悟、翼８　（正和残し※要検討）\n\n優奏　65　65　65\n明史　　100　100\n輝義　  　65　65\n圭悟　  　65　65\n＝655万円\n\n7月 65\n8月 295\n9月 295\nServiceNow1355→CSS585→名称をCSSに変更。正式に確定したメンバーの実際の数字を反映させ、確度Bにする。+70万円",
+      "status": "進行中",
+      "lossDate": null,
+      "lossReason": ""
+    }
+  ],
+  "targets": [
+    {
+      "id": "2026-03-受託事業部",
+      "month": "2026-03",
+      "department": "受託事業部",
+      "target": 100320000
+    },
+    {
+      "id": "2026-08-受託事業部",
+      "month": "2026-08",
+      "department": "受託事業部",
+      "target": 29110000
+    },
+    {
+      "id": "2026-09-受託事業部",
+      "month": "2026-09",
+      "department": "受託事業部",
+      "target": 30790000
+    },
+    {
+      "id": "2026-07-受託事業部",
+      "month": "2026-07",
+      "department": "受託事業部",
+      "target": 34360000
+    },
+    {
+      "id": "2026-06-受託事業部",
+      "month": "2026-06",
+      "department": "受託事業部",
+      "target": 31950000
+    },
+    {
+      "id": "2026-05-受託事業部",
+      "month": "2026-05",
+      "department": "受託事業部",
+      "target": 18290000
+    },
+    {
+      "id": "2026-04-受託事業部",
+      "month": "2026-04",
+      "department": "受託事業部",
+      "target": 16440000
+    }
+  ],
+  "logs": [
+    {
+      "id": "1780367294344.0",
+      "timestamp": "2026/6/2 11:28:14",
+      "message": "「センティリオン」が新規登録されました（金額: ¥330,000）",
+      "type": "add"
+    },
+    {
+      "id": "1780367344802.0",
+      "timestamp": "2026/6/2 11:29:04",
+      "message": "「武蔵野　DX、Zoho」を4ヶ月分一括登録（2026-06、2026-07、2026-08、2026-09）",
+      "type": "add"
+    },
+    {
+      "id": "1780367572404.0",
+      "timestamp": "2026/6/2 11:32:52",
+      "message": "「武蔵野　DX、Zoho」を8ヶ月分一括登録（2025-10、2025-11、2025-12、2026-01、2026-02、2026-03、2026-04、2026-05）",
+      "type": "add"
+    },
+    {
+      "id": "1780368859545.0",
+      "timestamp": "2026/6/2 11:54:19",
+      "message": "「センティリオン」が更新されました",
+      "type": "edit"
+    },
+    {
+      "id": "1780368877795.0",
+      "timestamp": "2026/6/2 11:54:37",
+      "message": "「センティリオン」を更新（納期月: 2026-04 → 2026-05）",
+      "type": "edit"
+    },
+    {
+      "id": "1780368948157.0",
+      "timestamp": "2026/6/2 11:55:48",
+      "message": "「センティリオン」を更新（金額: ¥330,000 → ¥34）",
+      "type": "edit"
+    },
+    {
+      "id": "1780369129866.0",
+      "timestamp": "2026/6/2 11:58:49",
+      "message": "「センティリオン」を更新（金額: ¥330,000 → ¥340,000）",
+      "type": "edit"
+    },
+    {
+      "id": "1780369137413.0",
+      "timestamp": "2026/6/2 11:58:57",
+      "message": "「センティリオン」を複製登録しました",
+      "type": "add"
+    },
+    {
+      "id": "1780369144584.0",
+      "timestamp": "2026/6/2 11:59:04",
+      "message": "「センティリオン」が削除されました",
+      "type": "delete"
+    },
+    {
+      "id": "1780370094360.0",
+      "timestamp": "2026/6/2 12:14:54",
+      "message": "「センティリオン」を複製登録しました",
+      "type": "add"
+    },
+    {
+      "id": "1780370111071.0",
+      "timestamp": "2026/6/2 12:15:11",
+      "message": "「センティリオン」を更新（ステータス: 進行中 → 失注（理由: 競合負け、失注日: 2026-06-02））",
+      "type": "edit"
+    },
+    {
+      "id": "1780370135396.0",
+      "timestamp": "2026/6/2 12:15:35",
+      "message": "「センティリオン」を複製登録しました",
+      "type": "add"
+    },
+    {
+      "id": "1780370136114.0",
+      "timestamp": "2026/6/2 12:15:36",
+      "message": "「センティリオン」を複製登録しました",
+      "type": "add"
+    },
+    {
+      "id": "1780370148551.0",
+      "timestamp": "2026/6/2 12:15:48",
+      "message": "「センティリオン」を更新（ステータス: 進行中 → 失注（理由: 未記入、失注日: 2026-06-02））",
+      "type": "edit"
+    },
+    {
+      "id": "1780370163796.0",
+      "timestamp": "2026/6/2 12:16:03",
+      "message": "「センティリオン」を更新（ステータス: 進行中 → 失注（理由: 未記入、失注日: 2026-06-02））",
+      "type": "edit"
+    },
+    {
+      "id": "1780370176886.0",
+      "timestamp": "2026/6/2 12:16:16",
+      "message": "「センティリオン」を複製登録しました",
+      "type": "add"
+    },
+    {
+      "id": "1780370189220.0",
+      "timestamp": "2026/6/2 12:16:29",
+      "message": "「センティリオン」を更新（ステータス: 進行中 → 失注（理由: 未記入、失注日: 2026-06-02））",
+      "type": "edit"
+    },
+    {
+      "id": "1780377107528.0",
+      "timestamp": "2026/6/2 14:11:47",
+      "message": "「武蔵野　DX、Zoho」を更新（金額: ¥201 → ¥2,025,000）",
+      "type": "edit"
+    },
+    {
+      "id": "1780377444120.0",
+      "timestamp": "2026/6/2 14:17:24",
+      "message": "「武蔵野　DX、Zoho」を更新（ステータス: 進行中 → 受注済み）",
+      "type": "edit"
+    },
+    {
+      "id": "1780377457611.0",
+      "timestamp": "2026/6/2 14:17:37",
+      "message": "「武蔵野　DX、Zoho」を更新（金額: ¥201 → ¥2,025,000、部署: オープン１課 → DX課、ステータス: 進行中 → 受注済み）",
+      "type": "edit"
+    },
+    {
+      "id": "1780377471113.0",
+      "timestamp": "2026/6/2 14:17:51",
+      "message": "「武蔵野　DX、Zoho」を更新（金額: ¥201 → ¥2,025,000、部署: オープン１課 → DX課、ステータス: 進行中 → 受注済み）",
+      "type": "edit"
+    },
+    {
+      "id": "1780377482076.0",
+      "timestamp": "2026/6/2 14:18:02",
+      "message": "「武蔵野　DX、Zoho」を更新（金額: ¥201 → ¥2,025,000、部署: オープン１課 → DX課、ステータス: 進行中 → 受注済み）",
+      "type": "edit"
+    },
+    {
+      "id": "1780377585112.0",
+      "timestamp": "2026/6/2 14:19:45",
+      "message": "「武蔵野　DX、Zoho」を更新（金額: ¥2,025,000 → ¥1,875,000）",
+      "type": "edit"
+    },
+    {
+      "id": "1780377590034.0",
+      "timestamp": "2026/6/2 14:19:50",
+      "message": "「武蔵野　DX、Zoho」を更新（部署: オープン１課 → DX課）",
+      "type": "edit"
+    },
+    {
+      "id": "1780377939554.0",
+      "timestamp": "2026/6/2 14:25:39",
+      "message": "「武蔵野　DX、Zoho」を更新（金額: ¥201 → ¥1,875,000、部署: オープン１課 → DX課）",
+      "type": "edit"
+    },
+    {
+      "id": "1780377969674.0",
+      "timestamp": "2026/6/2 14:26:09",
+      "message": "「武蔵野　DX、Zoho」を更新（金額: ¥201 → ¥1,931,000、部署: オープン１課 → DX課、ステータス: 進行中 → 受注済み）",
+      "type": "edit"
+    },
+    {
+      "id": "1780377985690.0",
+      "timestamp": "2026/6/2 14:26:25",
+      "message": "「武蔵野　DX、Zoho」を更新（金額: ¥201 → ¥2,063,000、部署: オープン１課 → DX課、ステータス: 進行中 → 受注済み）",
+      "type": "edit"
+    },
+    {
+      "id": "1780378005549.0",
+      "timestamp": "2026/6/2 14:26:45",
+      "message": "「武蔵野　DX、Zoho」を更新（金額: ¥201 → ¥2,288,000、部署: オープン１課 → DX課、ステータス: 進行中 → 受注済み）",
+      "type": "edit"
+    },
+    {
+      "id": "1780378026226.0",
+      "timestamp": "2026/6/2 14:27:06",
+      "message": "「武蔵野　DX、Zoho」を更新（金額: ¥201 → ¥2,063,000）",
+      "type": "edit"
+    },
+    {
+      "id": "1780378035771.0",
+      "timestamp": "2026/6/2 14:27:15",
+      "message": "「武蔵野　DX、Zoho」を更新（金額: ¥201 → ¥2,063,000）",
+      "type": "edit"
+    },
+    {
+      "id": "1780378040444.0",
+      "timestamp": "2026/6/2 14:27:20",
+      "message": "「武蔵野　DX、Zoho」を更新（金額: ¥201 → ¥2,063,000）",
+      "type": "edit"
+    },
+    {
+      "id": "1780378045657.0",
+      "timestamp": "2026/6/2 14:27:25",
+      "message": "「武蔵野　DX、Zoho」を更新（金額: ¥201 → ¥2,063,000）",
+      "type": "edit"
+    },
+    {
+      "id": "1780378170675.0",
+      "timestamp": "2026/6/2 14:29:30",
+      "message": "「CTC」を7ヶ月分一括登録（2025-10、2025-11、2025-12、2026-01、2026-02、2026-03、2026-04）",
+      "type": "add"
+    },
+    {
+      "id": "1780378283720.0",
+      "timestamp": "2026/6/2 14:31:23",
+      "message": "「CTC」が新規登録されました（金額: ¥916,000）",
+      "type": "add"
+    },
+    {
+      "id": "1780378320972.0",
+      "timestamp": "2026/6/2 14:32:00",
+      "message": "「CTC」を4ヶ月分一括登録（2026-06、2026-07、2026-08、2026-09）",
+      "type": "add"
+    },
+    {
+      "id": "1780378941551.0",
+      "timestamp": "2026/6/2 14:42:21",
+      "message": "「武蔵野　DX、Zoho」を更新（ステータス: 進行中 → 受注済み）",
+      "type": "edit"
+    },
+    {
+      "id": "1780379374693.0",
+      "timestamp": "2026/6/2 14:49:34",
+      "message": "「受注A（仮）」が新規登録されました（金額: ¥10,777,000）",
+      "type": "add"
+    },
+    {
+      "id": "1780379417122.0",
+      "timestamp": "2026/6/2 14:50:17",
+      "message": "「受注A（仮）」を複製登録しました",
+      "type": "add"
+    },
+    {
+      "id": "1780379432359.0",
+      "timestamp": "2026/6/2 14:50:32",
+      "message": "「受注A（仮）」を更新（金額: ¥10,777,000 → ¥17,230,000、納期月: 2026-06 → 2026-07）",
+      "type": "edit"
+    },
+    {
+      "id": "1780379436046.0",
+      "timestamp": "2026/6/2 14:50:36",
+      "message": "「受注A（仮）」を複製登録しました",
+      "type": "add"
+    },
+    {
+      "id": "1780379436727.0",
+      "timestamp": "2026/6/2 14:50:36",
+      "message": "「受注A（仮）」を複製登録しました",
+      "type": "add"
+    },
+    {
+      "id": "1780379479738.0",
+      "timestamp": "2026/6/2 14:51:19",
+      "message": "「受注A（仮）」を更新（金額: ¥17,230,000 → ¥10,570,000、納期月: 2026-07 → 2026-08）",
+      "type": "edit"
+    },
+    {
+      "id": "1780379584425.0",
+      "timestamp": "2026/6/2 14:53:04",
+      "message": "「受注A（仮）」を更新（金額: ¥17,230,000 → ¥12,590,000、納期月: 2026-07 → 2026-06）",
+      "type": "edit"
+    },
+    {
+      "id": "1780379679682.0",
+      "timestamp": "2026/6/2 14:54:39",
+      "message": "「受注A（仮）」を更新（金額: ¥10,777,000 → ¥15,460,000）",
+      "type": "edit"
+    },
+    {
+      "id": "1780379766677.0",
+      "timestamp": "2026/6/2 14:56:06",
+      "message": "「受注A（仮）」を更新（ステータス: 進行中 → 受注済み）",
+      "type": "edit"
+    },
+    {
+      "id": "1780379850982.0",
+      "timestamp": "2026/6/2 14:57:30",
+      "message": "「受注A（仮）」を更新（納期月: 2026-06 → 2026-09、ステータス: 受注済み → 進行中）",
+      "type": "edit"
+    },
+    {
+      "id": "1780379886661.0",
+      "timestamp": "2026/6/2 14:58:06",
+      "message": "「受注A（仮）」を更新（ステータス: 進行中 → 受注済み）",
+      "type": "edit"
+    },
+    {
+      "id": "1780379891719.0",
+      "timestamp": "2026/6/2 14:58:11",
+      "message": "「武蔵野　DX、Zoho」を更新（ステータス: 進行中 → 受注済み）",
+      "type": "edit"
+    },
+    {
+      "id": "1780379895541.0",
+      "timestamp": "2026/6/2 14:58:15",
+      "message": "「CTC」を更新（ステータス: 進行中 → 受注済み）",
+      "type": "edit"
+    },
+    {
+      "id": "1780379915633.0",
+      "timestamp": "2026/6/2 14:58:35",
+      "message": "「受注A（仮）」を更新（ステータス: 進行中 → 受注済み）",
+      "type": "edit"
+    },
+    {
+      "id": "1780379922630.0",
+      "timestamp": "2026/6/2 14:58:42",
+      "message": "「受注A（仮）」を更新（ステータス: 進行中 → 受注済み）",
+      "type": "edit"
+    },
+    {
+      "id": "1780379927466.0",
+      "timestamp": "2026/6/2 14:58:47",
+      "message": "「受注A（仮）」を更新（ステータス: 進行中 → 受注済み）",
+      "type": "edit"
+    },
+    {
+      "id": "1780379931832.0",
+      "timestamp": "2026/6/2 14:58:51",
+      "message": "「武蔵野　DX、Zoho」を更新（ステータス: 進行中 → 受注済み）",
+      "type": "edit"
+    },
+    {
+      "id": "1780379936127.0",
+      "timestamp": "2026/6/2 14:58:56",
+      "message": "「武蔵野　DX、Zoho」を更新（ステータス: 進行中 → 受注済み）",
+      "type": "edit"
+    },
+    {
+      "id": "1780379940346.0",
+      "timestamp": "2026/6/2 14:59:00",
+      "message": "「武蔵野　DX、Zoho」を更新（ステータス: 進行中 → 受注済み）",
+      "type": "edit"
+    },
+    {
+      "id": "1780379944549.0",
+      "timestamp": "2026/6/2 14:59:04",
+      "message": "「CTC」を更新（ステータス: 進行中 → 受注済み）",
+      "type": "edit"
+    },
+    {
+      "id": "1780379948385.0",
+      "timestamp": "2026/6/2 14:59:08",
+      "message": "「CTC」を更新（ステータス: 進行中 → 受注済み）",
+      "type": "edit"
+    },
+    {
+      "id": "1780379955198.0",
+      "timestamp": "2026/6/2 14:59:15",
+      "message": "「CTC」を更新（ステータス: 進行中 → 受注済み）",
+      "type": "edit"
+    },
+    {
+      "id": "1780456728425.0",
+      "timestamp": "2026/6/3 12:18:48",
+      "message": "「和光」が新規登録されました（金額: ¥1,000,000）",
+      "type": "add"
+    },
+    {
+      "id": "1780456829127.0",
+      "timestamp": "2026/6/3 12:20:29",
+      "message": "「CTC単価交渉」が新規登録されました（金額: ¥120,000）",
+      "type": "add"
+    },
+    {
+      "id": "1780456906516.0",
+      "timestamp": "2026/6/3 12:21:46",
+      "message": "「ルッカー作成」が新規登録されました（金額: ¥500,000）",
+      "type": "add"
+    },
+    {
+      "id": "1780456919088.0",
+      "timestamp": "2026/6/3 12:21:59",
+      "message": "「ルッカー作成」を複製登録しました",
+      "type": "add"
+    },
+    {
+      "id": "1780456934337.0",
+      "timestamp": "2026/6/3 12:22:14",
+      "message": "「ルッカー作成」を更新（顧客: カレルチャペック → 二天紀）",
+      "type": "edit"
+    },
+    {
+      "id": "1780457017430.0",
+      "timestamp": "2026/6/3 12:23:37",
+      "message": "「KIMETE jolt BigQuery連携」が新規登録されました（金額: ¥700,000）",
+      "type": "add"
+    },
+    {
+      "id": "1780457094309.0",
+      "timestamp": "2026/6/3 12:24:54",
+      "message": "「PBR保守対応」が新規登録されました（金額: ¥540,000）",
+      "type": "add"
+    },
+    {
+      "id": "1780457161951.0",
+      "timestamp": "2026/6/3 12:26:01",
+      "message": "「工程管理システム　機能改修\t\t」が新規登録されました（金額: ¥300,000）",
+      "type": "add"
+    },
+    {
+      "id": "1780457319088.0",
+      "timestamp": "2026/6/3 12:28:39",
+      "message": "「ServiceNow」が新規登録されました（金額: ¥13,550,000）",
+      "type": "add"
+    },
+    {
+      "id": "1780457547711.0",
+      "timestamp": "2026/6/3 12:32:27",
+      "message": "「スポット受注」が新規登録されました（金額: ¥630,000）",
+      "type": "add"
+    },
+    {
+      "id": "1780457586509.0",
+      "timestamp": "2026/6/3 12:33:06",
+      "message": "「見守りアプリ本開発」が新規登録されました（金額: ¥2,300,000）",
+      "type": "add"
+    },
+    {
+      "id": "1780457650118.0",
+      "timestamp": "2026/6/3 12:34:10",
+      "message": "「JAFナビエクストラ案件\t」が新規登録されました（金額: ¥1,650,000）",
+      "type": "add"
+    },
+    {
+      "id": "1780457735141.0",
+      "timestamp": "2026/6/3 12:35:35",
+      "message": "「MG集客」が新規登録されました（金額: ¥700,000）",
+      "type": "add"
+    },
+    {
+      "id": "1780457884115.0",
+      "timestamp": "2026/6/3 12:38:04",
+      "message": "「ダイサン」が新規登録されました（金額: ¥7,200,000）",
+      "type": "add"
+    },
+    {
+      "id": "1780457945913.0",
+      "timestamp": "2026/6/3 12:39:05",
+      "message": "「First Drop」が新規登録されました（金額: ¥10,000）",
+      "type": "add"
+    },
+    {
+      "id": "1780458024285.0",
+      "timestamp": "2026/6/3 12:40:24",
+      "message": "「MG集客」を複製登録しました",
+      "type": "add"
+    },
+    {
+      "id": "1780458062829.0",
+      "timestamp": "2026/6/3 12:41:02",
+      "message": "「MG集客(営業部）」を更新（金額: ¥700,000 → ¥930,000、ランク: C → D、部署: オープン２課 → 営業部、案件名: MG集客 → MG集客(営業部））",
+      "type": "edit"
+    },
+    {
+      "id": "1780458074085.0",
+      "timestamp": "2026/6/3 12:41:14",
+      "message": "「MG集客(営業部）」を複製登録しました",
+      "type": "add"
+    },
+    {
+      "id": "1780458102657.0",
+      "timestamp": "2026/6/3 12:41:42",
+      "message": "「MRAG販売」を更新（金額: ¥930,000 → ¥3,270,000、顧客: MG → MRAG、案件名: MG集客(営業部） → MRAG販売）",
+      "type": "edit"
+    },
+    {
+      "id": "1780458115875.0",
+      "timestamp": "2026/6/3 12:41:55",
+      "message": "「MRAG販売」を複製登録しました",
+      "type": "add"
+    },
+    {
+      "id": "1780458147826.0",
+      "timestamp": "2026/6/3 12:42:27",
+      "message": "「SESBPマッチング」を更新（金額: ¥3,270,000 → ¥4,700,000、顧客: MRAG → SESBP、案件名: MRAG販売 → SESBPマッチング）",
+      "type": "edit"
+    },
+    {
+      "id": "1780458251100.0",
+      "timestamp": "2026/6/3 12:44:11",
+      "message": "「顧客売上システム保守」が新規登録されました（金額: ¥240,000）",
+      "type": "add"
+    },
+    {
+      "id": "1780458382184.0",
+      "timestamp": "2026/6/3 12:46:22",
+      "message": "「サーバ移行（まきの）」が新規登録されました（金額: ¥2,560,000）",
+      "type": "add"
+    },
+    {
+      "id": "1780460151901.0",
+      "timestamp": "2026/6/3 13:15:51",
+      "message": "「スピード決裁機能追加」が新規登録されました（金額: ¥10,000）",
+      "type": "add"
+    },
+    {
+      "id": "1780460182507.0",
+      "timestamp": "2026/6/3 13:16:22",
+      "message": "「スピード決裁機能追加」を複製登録しました",
+      "type": "add"
+    },
+    {
+      "id": "1780460197015.0",
+      "timestamp": "2026/6/3 13:16:37",
+      "message": "「スピード決データ出力代行」を更新（案件名: スピード決裁機能追加 → スピード決データ出力代行）",
+      "type": "edit"
+    },
+    {
+      "id": "1780460200271.0",
+      "timestamp": "2026/6/3 13:16:40",
+      "message": "「スピード決裁機能追加」を複製登録しました",
+      "type": "add"
+    },
+    {
+      "id": "1780460216200.0",
+      "timestamp": "2026/6/3 13:16:56",
+      "message": "「サーバ老朽化対応」を更新（案件名: スピード決裁機能追加 → サーバ老朽化対応）",
+      "type": "edit"
+    },
+    {
+      "id": "1780460221671.0",
+      "timestamp": "2026/6/3 13:17:01",
+      "message": "「サーバ老朽化対応」を複製登録しました",
+      "type": "add"
+    },
+    {
+      "id": "1780460240526.0",
+      "timestamp": "2026/6/3 13:17:20",
+      "message": "「カスタマイズ事業部保守料値上げ」を更新（案件名: サーバ老朽化対応 → カスタマイズ事業部保守料値上げ）",
+      "type": "edit"
+    },
+    {
+      "id": "1780460259702.0",
+      "timestamp": "2026/6/3 13:17:39",
+      "message": "「カスタマイズ事業部保守料値上げ」を更新（金額: ¥10,000 → ¥210,000、ランク: D → C）",
+      "type": "edit"
+    },
+    {
+      "id": "1780460301851.0",
+      "timestamp": "2026/6/3 13:18:21",
+      "message": "「サーバ老朽化対応」を複製登録しました",
+      "type": "add"
+    },
+    {
+      "id": "1780460332097.0",
+      "timestamp": "2026/6/3 13:18:52",
+      "message": "「サーバ統合」を更新（金額: ¥10,000 → ¥1,100,000、案件名: サーバ老朽化対応 → サーバ統合）",
+      "type": "edit"
+    },
+    {
+      "id": "1780466882392.0",
+      "timestamp": "2026/6/3 15:08:02",
+      "message": "「受注A（仮）」を更新（金額: ¥17,230,000 → ¥7,600,000）",
+      "type": "edit"
+    },
+    {
+      "id": "1780466937081.0",
+      "timestamp": "2026/6/3 15:08:57",
+      "message": "「受注A（仮）」を更新（金額: ¥10,570,000 → ¥7,720,000）",
+      "type": "edit"
+    },
+    {
+      "id": "1780466986127.0",
+      "timestamp": "2026/6/3 15:09:46",
+      "message": "「受注A（仮）」を更新（金額: ¥15,460,000 → ¥12,150,000）",
+      "type": "edit"
+    },
+    {
+      "id": "1780529327861.0",
+      "timestamp": "2026/6/4 8:28:47",
+      "message": "「スピード決データ出力代行」を更新（金額: ¥10,000 → ¥800,000、ランク: D → C、納期月: 2026-09 → 2026-07）",
+      "type": "edit"
+    },
+    {
+      "id": "1780529405107.0",
+      "timestamp": "2026/6/4 8:30:05",
+      "message": "「JAFナビエクストラ案件バージョンアップ\t」を更新（金額: ¥1,650,000 → ¥1,080,000、ランク: D → B、案件名: JAFナビエクストラ案件\t → JAFナビエクストラ案件バージョンアップ\t、ステータス: 進行中 → 受注済み）",
+      "type": "edit"
+    },
+    {
+      "id": "1780529515825.0",
+      "timestamp": "2026/6/4 8:31:55",
+      "message": "「JAFナビエクストラ案件」が新規登録されました（金額: ¥450,000）",
+      "type": "add"
+    },
+    {
+      "id": "1780529581295.0",
+      "timestamp": "2026/6/4 8:33:01",
+      "message": "「JAFナビエクストラNuxtバージョンアップ\t」を更新（案件名: JAFナビエクストラ案件バージョンアップ\t → JAFナビエクストラNuxtバージョンアップ\t）",
+      "type": "edit"
+    },
+    {
+      "id": "1780529598979.0",
+      "timestamp": "2026/6/4 8:33:18",
+      "message": "「サーバ移行（まきの）」を更新（ステータス: 進行中 → 受注済み）",
+      "type": "edit"
+    },
+    {
+      "id": "1780529644351.0",
+      "timestamp": "2026/6/4 8:34:04",
+      "message": "「First Drop」が更新されました",
+      "type": "edit"
+    },
+    {
+      "id": "1780529657397.0",
+      "timestamp": "2026/6/4 8:34:17",
+      "message": "「FirstDrop」を更新（顧客: First Drop → FirstDrop、案件名: First Drop → FirstDrop）",
+      "type": "edit"
+    },
+    {
+      "id": "1780529695343.0",
+      "timestamp": "2026/6/4 8:34:55",
+      "message": "「FirstDrop」が更新されました",
+      "type": "edit"
+    },
+    {
+      "id": "1780529735149.0",
+      "timestamp": "2026/6/4 8:35:35",
+      "message": "「FirstDrop」が更新されました",
+      "type": "edit"
+    },
+    {
+      "id": "1780529914752.0",
+      "timestamp": "2026/6/4 8:38:34",
+      "message": "「スピード決裁データ出力代行」を更新（案件名: スピード決データ出力代行 → スピード決裁データ出力代行）",
+      "type": "edit"
+    },
+    {
+      "id": "1780530266817.0",
+      "timestamp": "2026/6/4 8:44:26",
+      "message": "「センティリオン」が更新されました",
+      "type": "edit"
+    },
+    {
+      "id": "1780530312493.0",
+      "timestamp": "2026/6/4 8:45:12",
+      "message": "「受注A（仮）」を更新（金額: ¥12,590,000 → ¥12,850,000）",
+      "type": "edit"
+    },
+    {
+      "id": "1780536970293.0",
+      "timestamp": "2026/6/4 10:36:10",
+      "message": "「KIMETE jolt BigQuery連携」を更新（金額: ¥700,000 → ¥300,000、ランク: D → C）",
+      "type": "edit"
+    },
+    {
+      "id": "1780537187135.0",
+      "timestamp": "2026/6/4 10:39:47",
+      "message": "「サーバ統合」を更新（ランク: D → C）",
+      "type": "edit"
+    },
+    {
+      "id": "1780537204352.0",
+      "timestamp": "2026/6/4 10:40:04",
+      "message": "「スピード決裁データ出力代行」を更新（ランク: C → D）",
+      "type": "edit"
+    },
+    {
+      "id": "1780537392360.0",
+      "timestamp": "2026/6/4 10:43:12",
+      "message": "「受注A（仮）」を更新（金額: ¥12,850,000 → ¥13,000,000）",
+      "type": "edit"
+    },
+    {
+      "id": "1780537668058.0",
+      "timestamp": "2026/6/4 10:47:48",
+      "message": "「武蔵野　DX、Zoho」を更新（ステータス: 受注済み → 進行中）",
+      "type": "edit"
+    },
+    {
+      "id": "1780537675617.0",
+      "timestamp": "2026/6/4 10:47:55",
+      "message": "「CTC」を更新（ステータス: 受注済み → 進行中）",
+      "type": "edit"
+    },
+    {
+      "id": "1780537687149.0",
+      "timestamp": "2026/6/4 10:48:07",
+      "message": "「受注A（仮）」を更新（ステータス: 受注済み → 進行中）",
+      "type": "edit"
+    },
+    {
+      "id": "1780537723979.0",
+      "timestamp": "2026/6/4 10:48:43",
+      "message": "「受注A（仮）」を複製登録しました",
+      "type": "add"
+    },
+    {
+      "id": "1780537724896.0",
+      "timestamp": "2026/6/4 10:48:44",
+      "message": "「受注A（仮）」を複製登録しました",
+      "type": "add"
+    },
+    {
+      "id": "1780537731989.0",
+      "timestamp": "2026/6/4 10:48:51",
+      "message": "「受注A（仮）」を更新（ステータス: 進行中 → 受注済み）",
+      "type": "edit"
+    },
+    {
+      "id": "1780537751162.0",
+      "timestamp": "2026/6/4 10:49:11",
+      "message": "「受注A（仮）」を更新（納期月: 2026-06 → 2026-05、ステータス: 進行中 → 受注済み）",
+      "type": "edit"
+    },
+    {
+      "id": "1780537764586.0",
+      "timestamp": "2026/6/4 10:49:24",
+      "message": "「受注A（仮）」を更新（納期月: 2026-06 → 2026-04、ステータス: 進行中 → 受注済み）",
+      "type": "edit"
+    },
+    {
+      "id": "1780537784577.0",
+      "timestamp": "2026/6/4 10:49:44",
+      "message": "「武蔵野　DX、Zoho」を複製登録しました",
+      "type": "add"
+    },
+    {
+      "id": "1780537807216.0",
+      "timestamp": "2026/6/4 10:50:07",
+      "message": "「武蔵野　DX、Zoho」を更新（納期月: 2026-05 → 2026-04）",
+      "type": "edit"
+    },
+    {
+      "id": "1780537849500.0",
+      "timestamp": "2026/6/4 10:50:49",
+      "message": "「武蔵野　DX、Zoho」を複製登録しました",
+      "type": "add"
+    },
+    {
+      "id": "1780537858505.0",
+      "timestamp": "2026/6/4 10:50:58",
+      "message": "「武蔵野　DX、Zoho」を更新（納期月: 2026-05 → 2026-04）",
+      "type": "edit"
+    },
+    {
+      "id": "1780537895677.0",
+      "timestamp": "2026/6/4 10:51:35",
+      "message": "「武蔵野　DX、Zoho」が削除されました",
+      "type": "delete"
+    },
+    {
+      "id": "1780537899762.0",
+      "timestamp": "2026/6/4 10:51:39",
+      "message": "「武蔵野　DX、Zoho」が削除されました",
+      "type": "delete"
+    },
+    {
+      "id": "1780537906504.0",
+      "timestamp": "2026/6/4 10:51:46",
+      "message": "「武蔵野　DX、Zoho」を更新（ステータス: 進行中 → 受注済み）",
+      "type": "edit"
+    },
+    {
+      "id": "1780537916105.0",
+      "timestamp": "2026/6/4 10:51:56",
+      "message": "「CTC」を更新（ステータス: 進行中 → 受注済み）",
+      "type": "edit"
+    },
+    {
+      "id": "1780537935216.0",
+      "timestamp": "2026/6/4 10:52:15",
+      "message": "「センティリオン」を更新（ステータス: 進行中 → 受注済み）",
+      "type": "edit"
+    },
+    {
+      "id": "1780537941335.0",
+      "timestamp": "2026/6/4 10:52:21",
+      "message": "「センティリオン」を更新（ステータス: 進行中 → 受注済み）",
+      "type": "edit"
+    },
+    {
+      "id": "1780538017099.0",
+      "timestamp": "2026/6/4 10:53:37",
+      "message": "「センティリオン」が削除されました",
+      "type": "delete"
+    },
+    {
+      "id": "1780538068005.0",
+      "timestamp": "2026/6/4 10:54:28",
+      "message": "「武蔵野　DX、Zoho」が削除されました",
+      "type": "delete"
+    },
+    {
+      "id": "1780538093251.0",
+      "timestamp": "2026/6/4 10:54:53",
+      "message": "「受注A（仮）」を更新（金額: ¥13,000,000 → ¥7,160,000）",
+      "type": "edit"
+    },
+    {
+      "id": "1780538166590.0",
+      "timestamp": "2026/6/4 10:56:06",
+      "message": "「受注A（仮）」を更新（金額: ¥13,000,000 → ¥10,770,000）",
+      "type": "edit"
+    },
+    {
+      "id": "1780538266413.0",
+      "timestamp": "2026/6/4 10:57:46",
+      "message": "「受注A（仮）」を更新（金額: ¥7,600,000 → ¥7,750,000）",
+      "type": "edit"
+    },
+    {
+      "id": "1780538430438.0",
+      "timestamp": "2026/6/4 11:00:30",
+      "message": "「受注A（仮）」を更新（金額: ¥7,720,000 → ¥7,870,000）",
+      "type": "edit"
+    },
+    {
+      "id": "1780538556449.0",
+      "timestamp": "2026/6/4 11:02:36",
+      "message": "「サーバ移行（まきの）」を更新（金額: ¥2,560,000 → ¥2,330,000、納期月: 2026-09 → 2026-06）",
+      "type": "edit"
+    },
+    {
+      "id": "1780538586383.0",
+      "timestamp": "2026/6/4 11:03:06",
+      "message": "「受注A（仮）」を更新（金額: ¥12,150,000 → ¥12,300,000）",
+      "type": "edit"
+    },
+    {
+      "id": "1780538757258.0",
+      "timestamp": "2026/6/4 11:05:57",
+      "message": "「受注A（仮）」を更新（金額: ¥13,000,000 → ¥10,670,000）",
+      "type": "edit"
+    },
+    {
+      "id": "1780539321856.0",
+      "timestamp": "2026/6/4 11:15:21",
+      "message": "「武蔵野　DX、Zoho」を更新（ステータス: 進行中 → 受注済み）",
+      "type": "edit"
+    },
+    {
+      "id": "1780539328822.0",
+      "timestamp": "2026/6/4 11:15:28",
+      "message": "「武蔵野　DX、Zoho」を更新（ステータス: 進行中 → 受注済み）",
+      "type": "edit"
+    },
+    {
+      "id": "1780541355646.0",
+      "timestamp": "2026/6/4 11:49:15",
+      "message": "「受注A（仮）」が新規登録されました（金額: ¥68,190,000）",
+      "type": "add"
+    },
+    {
+      "id": "1780542956230.0",
+      "timestamp": "2026/6/4 12:15:56",
+      "message": "「武蔵野　DX、Zoho」が削除されました",
+      "type": "delete"
+    },
+    {
+      "id": "1780544670947.0",
+      "timestamp": "2026/6/4 12:44:30",
+      "message": "「センティリオン」が削除されました",
+      "type": "delete"
+    },
+    {
+      "id": "1780544729740.0",
+      "timestamp": "2026/6/4 12:45:29",
+      "message": "「受注A（仮）」を更新（金額: ¥10,770,000 → ¥8,840,000）",
+      "type": "edit"
+    },
+    {
+      "id": "1781083418271.0",
+      "timestamp": "2026/6/10 18:23:38",
+      "message": "「ダイサン」を更新（ステータス: 進行中 → 失注（理由: 見込み薄、失注日: 2026-06-10））",
+      "type": "edit"
+    },
+    {
+      "id": "1781083540538.0",
+      "timestamp": "2026/6/10 18:25:40",
+      "message": "「中野牧場MGインスト」が新規登録されました（金額: ¥700,000）",
+      "type": "add"
+    },
+    {
+      "id": "1781083641990.0",
+      "timestamp": "2026/6/10 18:27:21",
+      "message": "「中野牧場コンサル」を3ヶ月分一括登録（2026-07、2026-08、2026-09）",
+      "type": "add"
+    },
+    {
+      "id": "1781146362359.0",
+      "timestamp": "2026/6/11 11:52:42",
+      "message": "「MRAG販売」を更新（金額: ¥3,270,000 → ¥4,400,000）",
+      "type": "edit"
+    },
+    {
+      "id": "1781146419038.0",
+      "timestamp": "2026/6/11 11:53:39",
+      "message": "「MRAG販売」が更新されました",
+      "type": "edit"
+    },
+    {
+      "id": "1781146442551.0",
+      "timestamp": "2026/6/11 11:54:02",
+      "message": "「MRAG販売」が更新されました",
+      "type": "edit"
+    },
+    {
+      "id": "1781146777225.0",
+      "timestamp": "2026/6/11 11:59:37",
+      "message": "「SESBPマッチング」を更新（金額: ¥4,700,000 → ¥1,600,000）",
+      "type": "edit"
+    },
+    {
+      "id": "1781146818254.0",
+      "timestamp": "2026/6/11 12:00:18",
+      "message": "「サーバ統合」を更新（金額: ¥1,100,000 → ¥1,300,000、ランク: C → B）",
+      "type": "edit"
+    },
+    {
+      "id": "1781147193522.0",
+      "timestamp": "2026/6/11 12:06:33",
+      "message": "「KIMETE jolt BigQuery連携」を更新（ステータス: 進行中 → 失注（理由: ラボ型工数に吸収、失注日: 2026-06-11））",
+      "type": "edit"
+    },
+    {
+      "id": "1781147283449.0",
+      "timestamp": "2026/6/11 12:08:03",
+      "message": "「スケジュールシステム」が新規登録されました（金額: ¥600,000）",
+      "type": "add"
+    },
+    {
+      "id": "1781159007623.0",
+      "timestamp": "2026/6/11 15:23:27",
+      "message": "「ケアスケジュールシステム」を更新（案件名: スケジュールシステム → ケアスケジュールシステム）",
+      "type": "edit"
+    },
+    {
+      "id": "1781159230988.0",
+      "timestamp": "2026/6/11 15:27:10",
+      "message": "「ケアスケジュールシステム」が更新されました",
+      "type": "edit"
+    },
+    {
+      "id": "1781159581878.0",
+      "timestamp": "2026/6/11 15:33:01",
+      "message": "「ケアスケジュールシステム」が更新されました",
+      "type": "edit"
+    },
+    {
+      "id": "1782086630066.0",
+      "timestamp": "2026/6/22 9:03:50",
+      "message": "「CSS」を更新（金額: ¥13,550,000 → ¥5,850,000、案件名: ServiceNow → CSS）",
+      "type": "edit"
+    },
+    {
+      "id": "1782090803730.0",
+      "timestamp": "2026/6/22 10:13:23",
+      "message": "「MRAG販売」が更新されました",
+      "type": "edit"
+    },
+    {
+      "id": "1782090897369.0",
+      "timestamp": "2026/6/22 10:14:57",
+      "message": "「見守りアプリ本開発」が更新されました",
+      "type": "edit"
+    },
+    {
+      "id": "1782091102501.0",
+      "timestamp": "2026/6/22 10:18:22",
+      "message": "「MG集客(営業部）」が更新されました",
+      "type": "edit"
+    },
+    {
+      "id": "1782091230710.0",
+      "timestamp": "2026/6/22 10:20:30",
+      "message": "「MG集客」を更新（ランク: C → D）",
+      "type": "edit"
+    },
+    {
+      "id": "1782091296267.0",
+      "timestamp": "2026/6/22 10:21:36",
+      "message": "「SESBPマッチング」が更新されました",
+      "type": "edit"
+    },
+    {
+      "id": "1782104558292.0",
+      "timestamp": "2026/6/22 14:02:38",
+      "message": "「MRAG販売」を複製登録しました",
+      "type": "add"
+    },
+    {
+      "id": "1782104687261.0",
+      "timestamp": "2026/6/22 14:04:47",
+      "message": "「MRAG販売」を複製登録しました",
+      "type": "add"
+    },
+    {
+      "id": "1782104689096.0",
+      "timestamp": "2026/6/22 14:04:49",
+      "message": "「MRAG販売」を複製登録しました",
+      "type": "add"
+    },
+    {
+      "id": "1782104819669.0",
+      "timestamp": "2026/6/22 14:06:59",
+      "message": "「MRAG販売」が削除されました",
+      "type": "delete"
+    },
+    {
+      "id": "1782104822184.0",
+      "timestamp": "2026/6/22 14:07:02",
+      "message": "「MRAG販売」が削除されました",
+      "type": "delete"
+    },
+    {
+      "id": "1782104855619.0",
+      "timestamp": "2026/6/22 14:07:35",
+      "message": "「MRAG販売」が更新されました",
+      "type": "edit"
+    },
+    {
+      "id": "1782104863704.0",
+      "timestamp": "2026/6/22 14:07:43",
+      "message": "「MRAG販売」を複製登録しました",
+      "type": "add"
+    },
+    {
+      "id": "1782104901181.0",
+      "timestamp": "2026/6/22 14:08:21",
+      "message": "「MRAG」を更新（金額: ¥4,400,000 → ¥300,000、ランク: D → B、顧客: MRAG → あおき、案件名: MRAG販売 → MRAG）",
+      "type": "edit"
+    },
+    {
+      "id": "1782104952019.0",
+      "timestamp": "2026/6/22 14:09:12",
+      "message": "「MRAG販売」を更新（金額: ¥4,400,000 → ¥900,000）",
+      "type": "edit"
+    },
+    {
+      "id": "1782104974804.0",
+      "timestamp": "2026/6/22 14:09:34",
+      "message": "「MRAG販売」を更新（金額: ¥4,400,000 → ¥3,200,000、ランク: D → E）",
+      "type": "edit"
+    },
+    {
+      "id": "1782105176537.0",
+      "timestamp": "2026/6/22 14:12:56",
+      "message": "「見守りアプリ本開発」を更新（ランク: D → E）",
+      "type": "edit"
+    },
+    {
+      "id": "1782105214615.0",
+      "timestamp": "2026/6/22 14:13:34",
+      "message": "「SESBPマッチング」を更新（金額: ¥1,600,000 → ¥1,000,000）",
+      "type": "edit"
+    },
+    {
+      "id": "1782105263322.0",
+      "timestamp": "2026/6/22 14:14:23",
+      "message": "「MG集客(営業部）」を更新（金額: ¥930,000 → ¥150,000）",
+      "type": "edit"
+    },
+    {
+      "id": "1782105302535.0",
+      "timestamp": "2026/6/22 14:15:02",
+      "message": "「スピード決裁データ出力代行」を更新（ステータス: 進行中 → 失注（理由: 機能自体の追加として別途受注したため、失注日: 2026-06-22））",
+      "type": "edit"
+    },
+    {
+      "id": "1782105324498.0",
+      "timestamp": "2026/6/22 14:15:24",
+      "message": "「MG集客」を更新（ランク: D → E）",
+      "type": "edit"
+    },
+    {
+      "id": "1782105369648.0",
+      "timestamp": "2026/6/22 14:16:09",
+      "message": "「JAFナビエクストラ案件」を更新（ランク: D → E）",
+      "type": "edit"
+    },
+    {
+      "id": "1782105421037.0",
+      "timestamp": "2026/6/22 14:17:01",
+      "message": "「CTC単価交渉」を更新（ランク: D → E、納期月: 2026-09 → 2026-10）",
+      "type": "edit"
+    },
+    {
+      "id": "1782106212732.0",
+      "timestamp": "2026/6/22 14:30:12",
+      "message": "「FirstDrop」を更新（ランク: D → E）",
+      "type": "edit"
+    },
+    {
+      "id": "1782106289930.0",
+      "timestamp": "2026/6/22 14:31:29",
+      "message": "「スピード決裁機能追加」を更新（金額: ¥10,000 → ¥2,900,000、ランク: D → A）",
+      "type": "edit"
+    },
+    {
+      "id": "1782108823914.0",
+      "timestamp": "2026/6/22 15:13:43",
+      "message": "「MRAG」を更新（納期月: 2026-09 → 2026-07）",
+      "type": "edit"
+    },
+    {
+      "id": "1782196967118.0",
+      "timestamp": "2026/6/23 15:42:47",
+      "message": "「CSS」が更新されました",
+      "type": "edit"
+    },
+    {
+      "id": "1782255508289.0",
+      "timestamp": "2026/6/24 7:58:28",
+      "message": "「ケアスケジュールシステム」が更新されました",
+      "type": "edit"
+    },
+    {
+      "id": "1782255570609.0",
+      "timestamp": "2026/6/24 7:59:30",
+      "message": "「和光」を更新（金額: ¥1,000,000 → ¥300,000）",
+      "type": "edit"
+    },
+    {
+      "id": "1782255570697.0",
+      "timestamp": "2026/6/24 7:59:30",
+      "message": "「和光」を更新（金額: ¥1,000,000 → ¥300,000）",
+      "type": "edit"
+    },
+    {
+      "id": "1782256239570.0",
+      "timestamp": "2026/6/24 8:10:39",
+      "message": "「業績のぼるくん老朽化対応」が新規登録されました（金額: ¥3,600,000）",
+      "type": "add"
+    },
+    {
+      "id": "1782256279123.0",
+      "timestamp": "2026/6/24 8:11:19",
+      "message": "「老朽化対応」が新規登録されました（金額: ¥2,400,000）",
+      "type": "add"
+    },
+    {
+      "id": "1782256302790.0",
+      "timestamp": "2026/6/24 8:11:42",
+      "message": "「老朽化対応」を更新（ランク: A → D）",
+      "type": "edit"
+    },
+    {
+      "id": "1782729115998.0",
+      "timestamp": "2026/6/29 19:31:55",
+      "message": "「中野牧場MGインスト」を更新（金額: ¥700,000 → ¥618,000）",
+      "type": "edit"
+    },
+    {
+      "id": "1782729465439.0",
+      "timestamp": "2026/6/29 19:37:45",
+      "message": "「MRAG」を更新（金額: ¥300,000 → ¥310,000、ランク: B → A）",
+      "type": "edit"
+    },
+    {
+      "id": "1782729503304.0",
+      "timestamp": "2026/6/29 19:38:23",
+      "message": "「MRAGサポート」が新規登録されました（金額: ¥200,000）",
+      "type": "add"
+    },
+    {
+      "id": "1782729763116.0",
+      "timestamp": "2026/6/29 19:42:43",
+      "message": "「中野牧場MGインスト」を更新（金額: ¥618,000 → ¥608,000）",
+      "type": "edit"
+    },
+    {
+      "id": "1782785161898.0",
+      "timestamp": "2026/6/30 11:06:01",
+      "message": "「CSS」を更新（金額: ¥5,850,000 → ¥6,550,000、ランク: C → B）",
+      "type": "edit"
+    },
+    {
+      "id": "1782785270936.0",
+      "timestamp": "2026/6/30 11:07:50",
+      "message": "「CSS」を更新（金額: ¥6,550,000 → ¥650,000、納期月: 2026-09 → 2026-07、顧客: 未定 → CSS）",
+      "type": "edit"
+    },
+    {
+      "id": "1782785282069.0",
+      "timestamp": "2026/6/30 11:08:02",
+      "message": "「CSS」を複製登録しました",
+      "type": "add"
+    },
+    {
+      "id": "1782785285281.0",
+      "timestamp": "2026/6/30 11:08:05",
+      "message": "「SESBPマッチング」を複製登録しました",
+      "type": "add"
+    },
+    {
+      "id": "1782785292074.0",
+      "timestamp": "2026/6/30 11:08:12",
+      "message": "「CSS」を複製登録しました",
+      "type": "add"
+    },
+    {
+      "id": "1782785308948.0",
+      "timestamp": "2026/6/30 11:08:28",
+      "message": "「CSS」を更新（金額: ¥650,000 → ¥2,950,000、納期月: 2026-07 → 2026-08）",
+      "type": "edit"
+    },
+    {
+      "id": "1782785322516.0",
+      "timestamp": "2026/6/30 11:08:42",
+      "message": "「CSS」を更新（金額: ¥650,000 → ¥2,950,000、納期月: 2026-07 → 2026-09）",
+      "type": "edit"
+    },
+    {
+      "id": "1782785342429.0",
+      "timestamp": "2026/6/30 11:09:02",
+      "message": "「CSS7月」を更新（案件名: CSS → CSS7月）",
+      "type": "edit"
+    },
+    {
+      "id": "1782785351260.0",
+      "timestamp": "2026/6/30 11:09:11",
+      "message": "「CSS8月」を更新（案件名: CSS → CSS8月）",
+      "type": "edit"
+    },
+    {
+      "id": "1782785380808.0",
+      "timestamp": "2026/6/30 11:09:40",
+      "message": "「CSS」を更新（案件名: CSS7月 → CSS）",
+      "type": "edit"
+    },
+    {
+      "id": "1782785390817.0",
+      "timestamp": "2026/6/30 11:09:50",
+      "message": "「CSS」を更新（案件名: CSS8月 → CSS）",
+      "type": "edit"
+    },
+    {
+      "id": "1782785409950.0",
+      "timestamp": "2026/6/30 11:10:09",
+      "message": "「CSS」が更新されました",
+      "type": "edit"
+    },
+    {
+      "id": "1782785433423.0",
+      "timestamp": "2026/6/30 11:10:33",
+      "message": "「CSS」が更新されました",
+      "type": "edit"
+    },
+    {
+      "id": "1782785449904.0",
+      "timestamp": "2026/6/30 11:10:49",
+      "message": "「CSS」が更新されました",
+      "type": "edit"
+    }
+  ],
+  "daily_snapshots": [
+    {
+      "id": "snapshot-2026-06-02-All",
+      "date": "2026-06-02",
+      "department": "All",
+      "totalAmount": 0,
+      "created_at": "2026/6/2 14:16:55"
+    },
+    {
+      "id": "snapshot-2026-06-03-All",
+      "date": "2026-06-03",
+      "department": "All",
+      "totalAmount": 0,
+      "created_at": "2026/6/3 16:12:40"
+    },
+    {
+      "id": "snapshot-2026-06-04-All",
+      "date": "2026-06-04",
+      "department": "All",
+      "totalAmount": 0,
+      "created_at": "2026/6/4 12:59:01"
+    },
+    {
+      "id": "snapshot-2026-06-10-All",
+      "date": "2026-06-10",
+      "department": "All",
+      "totalAmount": 0,
+      "created_at": "2026/6/10 19:14:59"
+    },
+    {
+      "id": "snapshot-2026-06-11-All",
+      "date": "2026-06-11",
+      "department": "All",
+      "totalAmount": 0,
+      "created_at": "2026/6/11 15:31:19"
+    },
+    {
+      "id": "snapshot-2026-06-17-All",
+      "date": "2026-06-17",
+      "department": "All",
+      "totalAmount": 0,
+      "created_at": "2026/6/17 16:06:27"
+    },
+    {
+      "id": "snapshot-2026-06-21-All",
+      "date": "2026-06-21",
+      "department": "All",
+      "totalAmount": 0,
+      "created_at": "2026/6/22 8:47:54"
+    },
+    {
+      "id": "snapshot-2026-06-22-All",
+      "date": "2026-06-22",
+      "department": "All",
+      "totalAmount": 0,
+      "created_at": "2026/6/22 15:11:04"
+    },
+    {
+      "id": "snapshot-2026-06-23-All",
+      "date": "2026-06-23",
+      "department": "All",
+      "totalAmount": 0,
+      "created_at": "2026/6/24 8:09:46"
+    },
+    {
+      "id": "snapshot-2026-06-24-All",
+      "date": "2026-06-24",
+      "department": "All",
+      "totalAmount": 0,
+      "created_at": "2026/6/24 10:03:06"
+    },
+    {
+      "id": "snapshot-2026-06-29-All",
+      "date": "2026-06-29",
+      "department": "All",
+      "totalAmount": 0,
+      "created_at": "2026/6/29 19:24:26"
+    },
+    {
+      "id": "snapshot-2026-06-30-All",
+      "date": "2026-06-30",
+      "department": "All",
+      "totalAmount": 0,
+      "created_at": "2026/6/30 11:14:52"
+    }
+  ],
+  "account_planning_categories": [
+    {
+      "id": "cat-1",
+      "name": "大手コンサル・メガSIer",
+      "created_at": "2026-06-11T01:19:51.858Z"
+    },
+    {
+      "id": "cat-2",
+      "name": "ロイヤルカスタマー",
+      "created_at": "2026-06-11T01:19:51.862Z"
+    },
+    {
+      "id": "cat-3",
+      "name": "MG/MRAG",
+      "created_at": "2026-06-11T01:19:51.865Z"
+    },
+    {
+      "id": "cat-4",
+      "name": "その他",
+      "created_at": "2026-06-11T01:19:51.868Z"
+    },
+    {
+      "id": "1781665986281",
+      "name": "エンドユーザー",
+      "created_at": "2026-06-17T03:13:06.281Z"
+    },
+    {
+      "id": "1782109477805",
+      "name": "category-1782109477798",
+      "created_at": "2026-06-22T06:24:37.805Z"
+    },
+    {
+      "id": "1782692607478",
+      "name": "ServiceNow",
+      "created_at": "2026-06-29T00:23:27.478Z"
+    }
+  ],
+  "account_planning_accounts": [
+    {
+      "id": "1781141813533",
+      "customerName": "まきの",
+      "categoryId": "cat-2",
+      "assignee": "今村茂雄",
+      "approachDate": "2026-06-11",
+      "actionPlan": "各担当に事前に架電で課題ヒアリングし、提案をまとめた上で訪問する。",
+      "expectedAmount": 2000000,
+      "status": "進行中",
+      "created_at": "2026-06-11T01:40:30.234Z",
+      "updated_at": "2026-06-11T01:40:30.234Z"
+    },
+    {
+      "id": "1781141658894",
+      "customerName": "武蔵野",
+      "categoryId": "cat-2",
+      "assignee": "武勇樹",
+      "approachDate": "2026-06-11",
+      "actionPlan": "訪問同行しお客様の業務状況と課題をヒアリングする",
+      "expectedAmount": 2000000,
+      "status": "進行中",
+      "created_at": "2026-06-11T01:47:58.840Z",
+      "updated_at": "2026-06-11T01:47:58.840Z"
+    },
+    {
+      "id": "1782108232042",
+      "customerName": "プロスター",
+      "categoryId": "cat-1",
+      "assignee": "営業",
+      "approachDate": "2026-06-22",
+      "actionPlan": "",
+      "expectedAmount": 0,
+      "status": "進行中",
+      "created_at": "2026-06-22T06:17:29.906Z",
+      "updated_at": "2026-06-22T06:17:29.906Z"
+    },
+    {
+      "id": "1782108231481",
+      "customerName": "ラクーンホールディングス",
+      "categoryId": "cat-1",
+      "assignee": "営業",
+      "approachDate": "2026-06-22",
+      "actionPlan": "",
+      "expectedAmount": 0,
+      "status": "進行中",
+      "created_at": "2026-06-22T06:17:46.077Z",
+      "updated_at": "2026-06-22T06:17:46.077Z"
+    },
+    {
+      "id": "1782108005498",
+      "customerName": "リバート",
+      "categoryId": "cat-1",
+      "assignee": "営業",
+      "approachDate": "2026-06-22",
+      "actionPlan": "データスパイダー、若手可",
+      "expectedAmount": 0,
+      "status": "進行中",
+      "created_at": "2026-06-22T06:18:05.053Z",
+      "updated_at": "2026-06-22T06:18:05.053Z"
+    },
+    {
+      "id": "1782109086887",
+      "customerName": "ジェイクリエイション",
+      "categoryId": "cat-1",
+      "assignee": "営業",
+      "approachDate": "2026-06-22",
+      "actionPlan": "",
+      "expectedAmount": 0,
+      "status": "進行中",
+      "created_at": "2026-06-22T06:18:27.219Z",
+      "updated_at": "2026-06-22T06:18:27.219Z"
+    },
+    {
+      "id": "1782109091467",
+      "customerName": "トップヒルズ",
+      "categoryId": "cat-1",
+      "assignee": "営業",
+      "approachDate": "2026-06-22",
+      "actionPlan": "",
+      "expectedAmount": 0,
+      "status": "進行中",
+      "created_at": "2026-06-22T06:18:40.646Z",
+      "updated_at": "2026-06-22T06:18:40.646Z"
+    },
+    {
+      "id": "1782109091341",
+      "customerName": "SICシステム",
+      "categoryId": "cat-1",
+      "assignee": "営業",
+      "approachDate": "2026-06-22",
+      "actionPlan": "",
+      "expectedAmount": 0,
+      "status": "進行中",
+      "created_at": "2026-06-22T06:18:51.824Z",
+      "updated_at": "2026-06-22T06:18:51.824Z"
+    },
+    {
+      "id": "1782109090325",
+      "customerName": "パーク",
+      "categoryId": "cat-1",
+      "assignee": "営業",
+      "approachDate": "2026-06-22",
+      "actionPlan": "受託、リソース不足で断ったりすることもあるらしい",
+      "expectedAmount": 0,
+      "status": "進行中",
+      "created_at": "2026-06-22T06:19:12.610Z",
+      "updated_at": "2026-06-22T06:19:12.610Z"
+    },
+    {
+      "id": "1782109158146",
+      "customerName": "axsh",
+      "categoryId": "cat-1",
+      "assignee": "営業",
+      "approachDate": "2026-06-22",
+      "actionPlan": "",
+      "expectedAmount": 0,
+      "status": "進行中",
+      "created_at": "2026-06-22T06:19:18.149Z",
+      "updated_at": "2026-06-22T06:19:18.149Z"
+    },
+    {
+      "id": "1782109156678",
+      "customerName": "ウィナス",
+      "categoryId": "cat-1",
+      "assignee": "営業",
+      "approachDate": "2026-06-22",
+      "actionPlan": "",
+      "expectedAmount": 0,
+      "status": "進行中",
+      "created_at": "2026-06-22T06:19:34.393Z",
+      "updated_at": "2026-06-22T06:19:34.393Z"
+    },
+    {
+      "id": "1782108232459",
+      "customerName": "finect",
+      "categoryId": "cat-1",
+      "assignee": "営業",
+      "approachDate": "2026-06-22",
+      "actionPlan": "",
+      "expectedAmount": 0,
+      "status": "進行中",
+      "created_at": "2026-06-22T06:19:45.437Z",
+      "updated_at": "2026-06-22T06:19:45.437Z"
+    },
+    {
+      "id": "1782109190527",
+      "customerName": "センティリオン",
+      "categoryId": "cat-1",
+      "assignee": "営業",
+      "approachDate": "2026-06-22",
+      "actionPlan": "",
+      "expectedAmount": 0,
+      "status": "進行中",
+      "created_at": "2026-06-22T06:19:50.530Z",
+      "updated_at": "2026-06-22T06:19:50.530Z"
+    },
+    {
+      "id": "1782109186936",
+      "customerName": "アイシステム",
+      "categoryId": "cat-1",
+      "assignee": "営業",
+      "approachDate": "2026-06-22",
+      "actionPlan": "",
+      "expectedAmount": 0,
+      "status": "進行中",
+      "created_at": "2026-06-22T06:20:00.570Z",
+      "updated_at": "2026-06-22T06:20:00.570Z"
+    },
+    {
+      "id": "1782108229991",
+      "customerName": "コアソフト",
+      "categoryId": "cat-1",
+      "assignee": "営業",
+      "approachDate": "2026-06-22",
+      "actionPlan": "",
+      "expectedAmount": 0,
+      "status": "進行中",
+      "created_at": "2026-06-22T06:20:18.701Z",
+      "updated_at": "2026-06-22T06:20:18.701Z"
+    },
+    {
+      "id": "1781148591367",
+      "customerName": "東京芝浦臓器",
+      "categoryId": "cat-4",
+      "assignee": "竹下太一",
+      "approachDate": "2026-06-11",
+      "actionPlan": "一般社員なので上まで繋げられるか。一回やってみたが無理だった。",
+      "expectedAmount": 0,
+      "status": "進行中",
+      "created_at": "2026-06-23T22:49:42.207Z",
+      "updated_at": "2026-06-23T22:49:42.207Z"
+    },
+    {
+      "id": "1781147980580",
+      "customerName": "CSS",
+      "categoryId": "cat-1",
+      "assignee": "竹下太一",
+      "approachDate": "2026-06-11",
+      "actionPlan": "８月から６枠１人６５万\n→＋130",
+      "expectedAmount": 1300000,
+      "status": "進行中",
+      "created_at": "2026-06-23T22:50:49.448Z",
+      "updated_at": "2026-06-23T22:50:49.448Z"
+    }
+  ],
+  "account_planning_settings": [
+    {
+      "key": "targetAmount",
+      "value": "target-amount",
+      "updated_at": "2026-06-17T03:29:26.991Z"
+    }
+  ],
+  "account_planning_category_targets": [
+    {
+      "categoryId": "cat-2",
+      "targetAmount": 10000000,
+      "updated_at": "2026-06-17T03:21:15.091Z"
+    },
+    {
+      "categoryId": "cat-4",
+      "targetAmount": 0,
+      "updated_at": "2026-06-17T03:21:45.307Z"
+    },
+    {
+      "categoryId": "1781665986281",
+      "targetAmount": 2500000,
+      "updated_at": "2026-06-17T03:25:15.090Z"
+    },
+    {
+      "categoryId": "1782109477805",
+      "targetAmount": 5000000,
+      "updated_at": "2026-06-23T22:51:34.694Z"
+    },
+    {
+      "categoryId": "cat-3",
+      "targetAmount": 500000,
+      "updated_at": "2026-06-23T22:52:23.719Z"
+    },
+    {
+      "categoryId": "cat-1",
+      "targetAmount": 32000000,
+      "updated_at": "2026-06-23T22:52:48.218Z"
+    }
+  ]
+}
