@@ -175,7 +175,7 @@ async function initTablesMySql(pool) {
         id VARCHAR(255) PRIMARY KEY,
         customerName VARCHAR(255) NOT NULL,
         planAmount DOUBLE NOT NULL,
-        planDate TEXT NOT NULL,
+        planDate VARCHAR(100) NOT NULL,
         notes TEXT,
         createdAt DATETIME DEFAULT CURRENT_TIMESTAMP,
         updatedAt DATETIME DEFAULT CURRENT_TIMESTAMP,
